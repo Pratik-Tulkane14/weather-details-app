@@ -1,0 +1,30 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#temp-icon{
+    zoom: 129%;
+}
+
+/* Adding grid design */
+.weather-type{
+    background-color: rgb(253, 251, 251);
+    margin-top: 20px;
+    height: 60px;
+    box-shadow: 3px 3px 11px -1px rgba(0,0,0,0.75);
+}
+.container-1{
+    margin-top: 9px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 0.5rem ;
+}
+.container-1 .item-1{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 243px;
+    padding: 22px;
+    box-shadow: 3px 3px 11px -1px rgba(0,0,0,0.75);
+}

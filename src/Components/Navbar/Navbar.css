@@ -1,0 +1,42 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin:2rem auto;
+
+}
+.container .header{
+    margin: auto auto;
+    display: grid;
+    justify-content: center;
+    padding: 8px;
+    width: 500px;
+    height: 90px;
+    background-color: #3b3dcc;
+}
+.container .header h2{
+    color: white;
+    margin-left: 71px;
+}
+.container .header input {
+    margin-left: 91px;
+}
+.container .header .search-bar{
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.container .header .search-bar button{
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    margin-left: 0.5rem;
+    border-radius: 3px;
+    background-color: #3b3dcc;
+}
+.container .header .search-bar button:hover{
+    color: rgba(255, 255, 255, 0.87);
+    font: bold;
+    cursor: pointer;
+}
